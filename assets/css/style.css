@@ -1,0 +1,62 @@
+/*
+ ITS4U
+ */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* Photo by Tyssul Patel on Unsplash */
+    background: url('../img/tyssul-patel-o-zOatT4kQw-unsplash.jpg') no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #282d33;
+    text-shadow: 0 0 150px #000;
+    font-size: 300%
+}
+.btn {
+    border: solid rgb(232, 82, 17) 3px;
+    border-radius: 9px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(232, 82, 17);
+    font-size: 135%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+}
