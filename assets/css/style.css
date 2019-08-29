@@ -32,24 +32,36 @@ html, body {
 }
 .content h1 {
     font-family: 'Open Sans', sans-serif;
-    color: #282d33;
+    color: rgb(40, 45, 51);
     text-shadow: 0 0 150px #000;
     font-size: 300%
 }
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(40, 45, 51);
+    display: inline-block;
+    margin: 0 0 20px;
+}
+
+a:hover {
+    color: #fff;
+}
+
 .btn {
     border: solid rgb(232, 82, 17) 3px;
     border-radius: 9px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(232, 82, 17);
     font-size: 135%;
+    color: rgb(232, 82, 17);
     padding: 10px 20px;
     text-transform: uppercase;
     text-decoration: none;
 }
 .btn:hover {
-    color: #fff;
     border: solid #fff 3px;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .content h1 {
